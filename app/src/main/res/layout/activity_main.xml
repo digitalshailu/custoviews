@@ -7,17 +7,23 @@
     android:orientation="vertical"
     tools:context="com.example.customviews.MainActivity">
 
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Input Fields"
-    android:onClick="showInputFields"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showInputFields"
+        android:text="Input Fields" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Custom Progress"
-        android:onClick="showProgress"/>
+        android:onClick="showProgress"
+        android:text="Custom Progress" />
 
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showSegmentView"
+        android:text="Segment view" />
 
 </LinearLayout>

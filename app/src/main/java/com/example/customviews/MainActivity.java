@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProgressDialogActivity.class);
         startActivity(intent);
     }
+
+    public void showSegmentView(View view) {
+        Intent intent = new Intent(this, SegmentViewActivity.class);
+        startActivity(intent);
+    }
 }
