@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.customviews.MainActivity">
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black BLACK"
+        android:textSize="20dp"
+        app:customFontStyle="black"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Black Italic BLACK ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="black_italic"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bold BOLD"
+        android:textSize="20dp"
+        app:customFontStyle="bold"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bold Italic BOLD ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="bold_italic"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Italic ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="italic"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light LIGHT"
+        android:textSize="20dp"
+        app:customFontStyle="light"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Light Italic LIGHT ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="light_italic"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium MEDIUM"
+        android:textSize="20dp"
+        app:customFontStyle="medium"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Italic MEDIUM ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="medium_italic"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regular REGULAR"
+        android:textSize="20dp"
+        app:customFontStyle="regular"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thin THIN"
+        android:textSize="20dp"
+        app:customFontStyle="thin"/>
+
+    <customviews.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thin Italic THIN ITALIC"
+        android:textSize="20dp"
+        app:customFontStyle="thin_italic"/>
+
+    <customviews.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Button"
+        android:textSize="20sp"
+        app:customFontStyle="regular"/>
+
+    <customviews.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom edit text"
+        app:customFontStyle="light_italic"/>
+
+
+</LinearLayout>
